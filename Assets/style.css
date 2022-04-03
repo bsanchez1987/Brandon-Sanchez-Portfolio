@@ -8,21 +8,29 @@
     margin: 0;
   }
 
-  h1 {
+  h1.Header {
+    color: blue;
+  }
+
+  h1 h2 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: left;
     width: 50%;
     height: 20%;
     margin: 0 auto;
     border-style: solid;
     border-width: 2px;
-    color: blue;
   }
 
   nav {
 
+  }
+
+  h2.Skills{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
   ul {
     display: flex;
